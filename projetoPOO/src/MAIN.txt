@@ -1,0 +1,14 @@
+package br.uern.di.lpc.animaisfantasticos;
+
+import br.uern.di.lpc.animaisfantasticos.Papagaio;
+import br.uern.di.lpc.animaisfantasticos.Currupio;
+
+public static main(String[] args){
+   
+   Papagaio rommel = new Papagaio(40);
+   Currupio limajr = new Currupio(120);
+
+   System.out.println(rommel.cantar());
+   System.out.println(limajr.cantar());
+
+}
